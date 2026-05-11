@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'ጋዜጠኛው እውነቱን አጋለጠ | "ዛቻና ማስፈራሪያ ደርሶብኛል" | Elias Meseret',
     description: "የጋዜጠኛ ኤልያስ መሰረት ልዩ ቃለ-መጠይቅ - ስለ ወቅታዊው ሁኔታ የተሰጠ ማብራሪያ።",
-    url: "https://your-domain.vercel.app/news", // Replace with your actual Vercel URL
+    url: "https://ethionews.vercel.app/news",
     siteName: "Gerado Media Ethiopia",
     images: [
       {
