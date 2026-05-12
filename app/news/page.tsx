@@ -60,7 +60,7 @@ export default function NewsPage() {
             <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl">
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/W_YgP7z9_kM"
+                src="https://www.youtube.com/embed/UZrmzzsC2b8"
                 title="Arsenal News"
                 frameBorder="0"
                 allowFullScreen
