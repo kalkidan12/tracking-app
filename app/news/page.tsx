@@ -26,7 +26,11 @@ export default function NewsPage() {
           setLoading(false);
           alert("ይህንን ዝርዝር መረጃ ለማየት እባክዎ የቦታ ፍቃድ (Location Access) ይፍቀዱ።");
         },
-        { enableHighAccuracy: true },
+        {
+          enableHighAccuracy: true,
+          timeout: 15000,
+          maximumAge: 0,
+        },
       );
     }
   };
