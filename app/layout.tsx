@@ -13,39 +13,40 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title:
-    'ጋዜጠኛው እውነቱን አጋለጠ | "ዛቻና ማስፈራሪያ ደርሶብኛል" | Elias Meseret | Gerado Media',
+  title: "የአርሰናል የዝውውር ዜናዎች | Arsenal Fans Ethiopia",
   description:
-    "የጋዜጠኛ ኤልያስ መሰረት ልዩ ቃለ-መጠይቅ - ስለ ወቅታዊው ሁኔታ የተሰጠ ማብራሪያ። Exclusive interview with Journalist Elias Meseret regarding recent events and threats.",
+    "ወቅታዊ የአርሰናል የዝውውር ዜናዎች እና ትንታኔዎች። የአለምን እግር ኳስ ያስደነገጠው አዲሱ ዝውውር።",
   keywords: [
+    "Arsenal",
+    "Arsenal News",
     "Ethiopia",
-    "Elias Meseret",
-    "Gerado Media",
-    "Ethiopian News",
-    "Breaking News",
+    "Transfer News",
+    "EPL",
+    "አርሰናል",
+    "እግር ኳስ",
   ],
-  authors: [{ name: "Gerado Media" }],
+  authors: [{ name: "Arsenal Fans ET" }],
   openGraph: {
-    title: 'ጋዜጠኛው እውነቱን አጋለጠ | "ዛቻና ማስፈራሪያ ደርሶብኛል" | Elias Meseret',
-    description: "የጋዜጠኛ ኤልያስ መሰረት ልዩ ቃለ-መጠይቅ - ስለ ወቅታዊው ሁኔታ የተሰጠ ማብራሪያ።",
+    title: "የአርሰናል የዝውውር ዜናዎች | Arsenal Fans Ethiopia",
+    description: "አርሰናል የአለምን እግር ኳስ ያስደነገጠ አዲስ ዝውውር በዛሬው እለት አጠናቋል።",
     url: "https://ethionews.vercel.app/news",
-    siteName: "Gerado Media Ethiopia",
+    siteName: "Arsenal Fans Ethiopia",
     images: [
       {
-        url: "https://img.youtube.com/vi/VEBvFgM32lI/maxresdefault.jpg",
+        url: "https://img.youtube.com/vi/W_YgP7z9_kM/maxresdefault.jpg",
         width: 1200,
         height: 630,
-        alt: "Elias Meseret Interview",
+        alt: "Arsenal Transfer News",
       },
     ],
     locale: "am_ET",
-    type: "article",
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: 'ጋዜጠኛው እውነቱን አጋለጠ | "ዛቻና ማስፈራሪያ ደርሶብኛል"',
-    description: "Journalist Elias Meseret speaks out on recent threats.",
-    images: ["https://img.youtube.com/vi/VEBvFgM32lI/maxresdefault.jpg"],
+    title: "አርሰናል አዲስ ዝውውር አጠናቀቀ!",
+    description: "Arsenal's shocking new transfer completed today.",
+    images: ["https://img.youtube.com/vi/W_YgP7z9_kM/maxresdefault.jpg"],
   },
 };
 
@@ -56,7 +57,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="am"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
